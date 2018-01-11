@@ -39,5 +39,7 @@ def turn(board)
   index = input_to_index(input)
   if valid_move?(board, index) == true
     return true
+  else
+    puts "Please input a valid move"
   end
 end
