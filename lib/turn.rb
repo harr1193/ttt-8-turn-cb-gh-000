@@ -40,6 +40,6 @@ def turn(board)
   if valid_move?(board, index) == true
     return true
   else
-    puts "Please input a valid move"
+    puts "Please enter 1-9:"
   end
 end
