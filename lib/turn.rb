@@ -25,3 +25,10 @@ def position_taken?(board, index)
     return false
   end
 end
+
+def move(board, index, input)
+  if valid_move?(board, index)
+    board[index] = input
+    return board
+  end
+end
